@@ -3,7 +3,9 @@ import { DefaultLoginLayoutComponent } from '../../components/default-login-layo
 
 @Component({
   selector: 'app-login',
-  imports: [DefaultLoginLayoutComponent],
+  imports: [
+    DefaultLoginLayoutComponent
+  ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
